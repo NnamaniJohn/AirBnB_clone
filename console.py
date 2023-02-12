@@ -21,11 +21,13 @@ class HBNBCommand(cmd.Cmd):
     classes = ["BaseModel", "User", "State", "City", "Amenity", "Place", "Review"]
 
     def do_quit(self, arg):
-        """Quit command to exit the program"""
+        """Quit command to exit the program
+        """
         return True
 
     def do_EOF(self, arg):
-        """Quit command to exit the program"""
+        """Quit command to exit the program
+        """
         return True
 
     def do_all(self, arg):
